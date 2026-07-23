@@ -1,7 +1,25 @@
 aid: 10-percent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/10-percent.png
 name: 10 Percent
-description: 10 Percent is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 10 Percent is a two-sided agricultural marketplace with embedded financial services, a
+  Speedinvest portfolio company (invested ~2020) operating in the agri-fintech and marketplaces space.
+  Public sources describe it combining agricultural supply-chain e-commerce, grain procurement, and
+  business-intelligence services with embedded financing such as factoring and credit offered inside
+  transactions to help agricultural partners manage cash flow and access capital. It was surfaced as a
+  Speedinvest portfolio company and added to the API Evangelist network as a stub; enrichment searched
+  the public web and found no developer portal, documentation, or public API surface, so no API
+  artifacts could be harvested. This profile remains an identity-only lead pending a discoverable API.
 url: https://raw.githubusercontent.com/api-evangelist/10-percent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,8 +30,20 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+x-enrichment:
+  last_run: '2026-07-17'
+  status: identity-only
+  api_surface_found: false
+  notes: Confirmed agri-fintech marketplace (Speedinvest portfolio); no public API/docs/portal found.
 tags:
 - Company
+- Agriculture
+- AgTech
+- Fintech
+- Embedded Finance
+- Marketplace
+- Supply Chain
+- Grain Procurement
 apis: []
 maintainers:
 - FN: Kin Lane
